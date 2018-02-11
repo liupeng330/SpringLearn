@@ -15,11 +15,14 @@
             <value>red</value>
         </property>
     </bean>
+    <bean id="car2" class="me.pengliu330.springlearn.Car" p:masSpeed="200" p:brand="test123" p:color="green" />
 
     <bean id="boss" class="me.pengliu330.springlearn.Boss">
         <property name="car">
             <ref bean="car"/>
         </property>
     </bean>
+
+    <bean id="boss2" class="me.pengliu330.springlearn.Boss" p:car-ref="car2"/>
 
 </beans>
