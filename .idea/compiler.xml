@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bootlearn" />
         <module name="NewSpringLearn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bootlearn" target="1.8" />
       <module name="NewSpringLearn" target="1.5" />
     </bytecodeTargetLevel>
   </component>
